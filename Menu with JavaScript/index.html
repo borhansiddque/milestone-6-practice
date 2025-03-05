@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Function</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-slate-900 pt-10">
+    <div class="w-1/2 mx-auto bg-slate-200 relative">
+        <header class=>
+            <nav class="flex items-center justify-between p-5">
+                <h2 class="text-3xl font-semibold">LOGO</h2>
+                <div id="menu-open-btn">
+                    <i class="fa-solid fa-bars text-3xl cursor-pointer"></i>
+                </div>
+            </nav>
+            <div class="text-center mt-14">
+                <h1 class="text-5xl font-bold">I am the Hero Section <br> Learn Menu Function</h1>
+                <p class="mt-10 text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi repellat esse magni quae voluptatem
+                    voluptates! Excepturi ratione libero inventore dolore iure sequi possimus illo eaque. Tempore
+                    necessitatibus veniam quaerat? Officia.</p>
+            </div>
+        </header>
+        <main class="mt-20 space-y-10">
+            <div class="">
+                <h2 class="text-2xl font-semibold">Blog One</h2>
+                <p class="mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In id ipsum at natus quam itaque provident libero deserunt. Recusandae reprehenderit facilis, maiores, sequi cupiditate vitae autem distinctio labore accusamus, laborum consequuntur? At aliquid tempore reiciendis, officia vero officiis laborum quae? Eaque rerum quo ad dignissimos recusandae, eos similique mollitia ipsam!</p>
+            </div>
+            <div class="">
+                <h2 class="text-2xl font-semibold">Blog Two</h2>
+                <p class="mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In id ipsum at natus quam itaque provident libero deserunt. Recusandae reprehenderit facilis, maiores, sequi cupiditate vitae autem distinctio labore accusamus, laborum consequuntur? At aliquid tempore reiciendis, officia vero officiis laborum quae? Eaque rerum quo ad dignissimos recusandae, eos similique mollitia ipsam!</p>
+            </div>
+            <div class="">
+                <h2 class="text-2xl font-semibold">Blog Three</h2>
+                <p class="mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In id ipsum at natus quam itaque provident libero deserunt. Recusandae reprehenderit facilis, maiores, sequi cupiditate vitae autem distinctio labore accusamus, laborum consequuntur? At aliquid tempore reiciendis, officia vero officiis laborum quae? Eaque rerum quo ad dignissimos recusandae, eos similique mollitia ipsam!</p>
+            </div>
+        </main>
+        <div id="mobile-menu-section" class="bg-slate-200 absolute top-0 w-full py-10 px-5 hidden">
+            <div id="menu-close-btn" class="flex items-center justify-end cursor-pointer">
+                <i class="fa-solid fa-xmark text-4xl"></i>
+            </div>
+            <ul class="space-y-5 text-center mt-5">
+                <li class="text-4xl font-semibold cursor-pointer">Home</li>
+                <li class="text-4xl font-semibold cursor-pointer">About us</li>
+                <li class="text-4xl font-semibold cursor-pointer">Blogs</li>
+                <li class="text-4xl font-semibold cursor-pointer">Projects</li>
+                <li class="text-4xl font-semibold cursor-pointer">Contact Us</li>
+            </ul>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
