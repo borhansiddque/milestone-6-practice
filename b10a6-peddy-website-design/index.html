@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Peddy Website Design With API</title>
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Font Family CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Tailwind CSS & DaisyUI CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <style>
+      .font-lato {
+        font-family: "Lato", sans-serif;
+      }
+      .primary-color {
+        color: #131313;
+      }
+    </style>
+  </head>
+  <body class="font-lato">
+    <div class="container mx-auto">
+      <!-- Navbar Start -->
+      <div class="navbar my-10">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+            >
+              <li><a>Item 1</a></li>>
+              <li><a>Item 3</a></li>
+            </ul>
+          </div>
+          <div class="flex items-center gap-2">
+            <div class="">
+              <img src="./images/logo.webp" alt="Website LOGO" />
+            </div>
+            <h2>
+              <a href="" class="primary-color text-3xl font-black">Peddy</a>
+            </h2>
+          </div>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="flex items-center gap-8">
+            <li><a class="primary-color cursor-pointer opacity-70">Home</a></li>
+            <li><a class="primary-color cursor-pointer opacity-70">Shop</a></li>
+            <li><a class="primary-color cursor-pointer opacity-70">Contact</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <div class="border py-2 px-3 rounded-full opacity-50">
+            <i class="fa-regular fa-user"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Navbar End -->
+    </div>
+  </body>
+</html>
