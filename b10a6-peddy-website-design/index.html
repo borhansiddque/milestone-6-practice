@@ -39,7 +39,7 @@
   <body class="font-lato">
     <div class="container mx-auto">
       <!-- Navbar Start -->
-      <div class="navbar my-10">
+      <div class="navbar mt-10">
         <div class="navbar-start">
           <div class="dropdown">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -62,7 +62,8 @@
               tabindex="0"
               class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
-              <li><a>Item 1</a></li>>
+              <li><a>Item 1</a></li>
+              >
               <li><a>Item 3</a></li>
             </ul>
           </div>
@@ -77,9 +78,15 @@
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="flex items-center gap-8">
-            <li><a class="primary-color cursor-pointer opacity-70">Home</a></li>
-            <li><a class="primary-color cursor-pointer opacity-70">Shop</a></li>
-            <li><a class="primary-color cursor-pointer opacity-70">Contact</a></li>
+            <li>
+              <a class="primary-color cursor-pointer opacity-70 font-semibold">Home</a>
+            </li>
+            <li>
+              <a class="primary-color cursor-pointer opacity-70 font-semibold">Shop</a>
+            </li>
+            <li>
+              <a class="primary-color cursor-pointer opacity-70 font-semibold">Contact</a>
+            </li>
           </ul>
         </div>
         <div class="navbar-end">
@@ -89,6 +96,31 @@
         </div>
       </div>
       <!-- Navbar End -->
+      <!-- Hero Section Start -->
+      <div class="flex flex-col gap-10 items-center mt-20">
+        <div class="hero">
+          <div class="hero-content text-center">
+            <div class="md:w-2/3">
+              <h3 class="text-2xl font-medium primary-color">
+                <span class="opacity-60">Bringing Families Together</span> ❤️‍🔥
+              </h3>
+              <h1 class="text-5xl sm:text-7xl font-black leading-[60px] sm:leading-[88px] mt-10">
+                Your Path to Adoption Starts Here
+              </h1>
+              <p class="mt-6 mb-8 primary-color leading-7">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+                The point of using Lorem Ipsum is that it has a.
+              </p>
+              <button class="bg-[#0E7A81] text-white rounded-xl py-4 px-8 text-xl font-semibold cursor-pointer">Get Started</button>
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <img src="./images/pet.webp" alt="" width="100%" />
+        </div>
+      </div>
+      <!-- Hero Section End -->
     </div>
   </body>
 </html>
