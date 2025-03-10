@@ -28,5 +28,5 @@ const showPost = (posts) => {
 handlePost();
 
 const details = () => {
-  alert("Sorry! Button Not Work")
+  alert("Sorry! Button Not Work");
 }
