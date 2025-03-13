@@ -39,7 +39,7 @@
     </style>
   </head>
   <body class="font-lato">
-    <div class="container mx-auto">
+    <div class="w-11/12 mx-auto">
       <!-- Navbar Start -->
       <div class="navbar mt-10">
         <div class="navbar-start">
@@ -149,6 +149,31 @@
         <div id="category-btn" class="mt-12 flex flex-wrap items-center justify-evenly gap-5">
 
         </div>
+      </section>
+      <!-- Dynamic Data Load here -->
+      <section>
+        <div class="flex items-center justify-between">
+          <h3 class="text-2xl font-black">Best Deal For you</h3>
+          <button
+          class="bg-[#0E7A81] text-white rounded-xl py-4 px-8 text-xl font-semibold cursor-pointer mt-3"
+          >
+          Sort by Price
+        </button>
+        </div>
+        <div class="grid grid-cols-4 my-12 gap-5">
+          <div id="noData" class="bg-black col-span-4 h-full hidden">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor velit sit, eveniet corrupti nesciunt harum culpa aliquam ab ratione necessitatibus saepe dignissimos cumque cupiditate, quam fugiat neque reprehenderit molestias iure.</p>
+          </div>
+          <div id="cardContainer" class="col-span-3 grid grid-cols-3 gap-6">
+            
+          </div>
+          <div id="petImageCon" class="border border-[#0E7A8130] p-5 rounded-xl">
+            <div id="petImageContainer" class="grid grid-cols-2 gap-5">
+
+            </div>
+          </div>
+        </div>
+        
       </section>
     </div>
     <footer class="bg-[#131313] py-24">
