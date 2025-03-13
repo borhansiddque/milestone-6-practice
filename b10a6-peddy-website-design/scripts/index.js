@@ -11,7 +11,6 @@ loadCategoryBtn();
 const showCategory = (category) => {
   const categoryBtnContainer = document.getElementById("category-btn");
   category.forEach((element) => {
-    console.log(element);
     const div = document.createElement("div");
     div.innerHTML = `
     <button
