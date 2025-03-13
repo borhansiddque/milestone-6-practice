@@ -17,8 +17,8 @@ const showCategory = (category) => {
     <button
       class="flex gap-4 items-center text-2xl font-bold primary-color py-6 px-20 border border-transparent hover:border-[#0E7A81] bg-[#0E7A8110] rounded-full cursor-pointer"
     >
-      <img src="./images/shiba-1.png" alt="">
-      ${element}
+      <img src="${element.category_icon}" alt="">
+      ${element.category}
     </button>
     `;
     categoryBtnContainer.append(div);
